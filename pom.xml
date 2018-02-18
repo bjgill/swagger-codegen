@@ -745,6 +745,18 @@
             </modules>
         </profile>
         <profile>
+            <id>rust-server</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>rust</value>
+                </property>
+            </activation>
+            <modules>
+                <module>samples/server/petstore/rust-server</module>
+            </modules>
+        </profile>
+        <profile>
             <id>spring-mvc</id>
             <activation>
                 <property>
